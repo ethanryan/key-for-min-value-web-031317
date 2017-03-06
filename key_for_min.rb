@@ -14,6 +14,8 @@ end #end method
 
 
 ### got this from here: http://stackoverflow.com/questions/33905056/ruby-iterate-through-hash-and-compare-value-pairs
+### and amended it, adding smallest_key and returning smallest_key.last
+
 def key_for_min_value(name_hash)
   name_array = name_hash.to_a # convert hash to array and assign to name_array
   default_key = 0   # default key value set at 0
